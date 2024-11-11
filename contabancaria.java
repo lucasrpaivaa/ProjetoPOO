@@ -14,9 +14,9 @@ class Empresa implements Autenticar {
     private String senha;
 
     public Empresa() {
-        this.nomeFantasia = "BITBUILDERS";
+        this.nomeFantasia = "UniCrente";
         this.CNPJ = "00.623.904/0001-73";
-        this.nome = "Lucas Bastos";
+        this.nome = "Lucas Paiva";
         this.senha = "adm_control";
     }
 
@@ -189,16 +189,16 @@ public class PI_POO_C2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        dentistas.add(new Dentista("Dr. Vinicius Mergalhaes", 3000.0f, "001"));
-        dentistas.add(new Dentista("Dr. Maria Cristina", 2500.0f, "002"));
-        clientes.add(new Cliente("Jonatas Carmago", "91234-1234"));
-        clientes.add(new Cliente("Victor Hugo", "91234-5678"));
-        clientes.add(new Cliente("Joao Miguel", "92424-6969"));
-        clientes.add(new Cliente("Gustavo Henrique", "99876-5432"));
+        dentistas.add(new Dentista("Dr. Vinicius Cavalcante", 3000.0f, "001"));
+        dentistas.add(new Dentista("Dra. Deolane", 2500.0f, "002"));
+        clientes.add(new Cliente("Gustavo Mendes", "99999-9999"));
+        clientes.add(new Cliente("Italo Teixeira", "99999-9999"));
+        clientes.add(new Cliente("Lucas Paiva", "99999-9999"));
+        clientes.add(new Cliente("Down", "99999-9999"));
 
         Empresa empresa = new Empresa();
-        Atendimento atendente01 = new Atendimento("Amabile Zukerg", 1500.0f, "file18");
-        Atendimento atendente02 = new Atendimento("Kaua Barbosa", 1500.0f, "file24");
+        Atendimento atendente01 = new Atendimento("Elon Musk", 1500.0f, "file18");
+        Atendimento atendente02 = new Atendimento("Barack Obama", 1500.0f, "file24");
 
         System.out.print("\nNome Fantasia da empresa: ");
         empresa.setNomeFantasia(scanner.nextLine());
